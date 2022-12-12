@@ -2,29 +2,12 @@ package Homework1;
 
 public class Launcher {
     public static void main(String[] args) {
-        Human maks = new Human();
-        maks.name = "Максим";
-        maks.yearOfBirth = 1988;
-        maks.town = "Минск";
-        maks.jobTitle = "бренд-менеджер";
 
-        Human anna = new Human();
-        anna.name = "Аня";
-        anna.yearOfBirth = 1993;
-        anna.town = "Москва";
-        anna.jobTitle = "методист образовательных программ";
+        Human maks = new Human(1988, "Максим", "Минск", "бренд-менеджер");
+        Human anna = new Human(1993, "Аня", "Москва", "методист образовательных программ");
+        Human kat = new Human(1992, "Катя", "Калининград", "продакт-менеджер");
+        Human arty = new Human(1995, "Артем", "Москва", "директор по развитию бизнеса");
 
-        Human kat = new Human();
-        kat.name = "Катя";
-        kat.yearOfBirth = 1992;
-        kat.town = "Калининград";
-        kat.jobTitle = "продакт-менеджер";
-
-        Human arty = new Human();
-        arty.name = "Артем";
-        arty.yearOfBirth = 1995;
-        arty.town = "Москва";
-        arty.jobTitle = "директор по развитию бизнеса";
 
         System.out.println(maks);
         System.out.println(anna);

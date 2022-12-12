@@ -6,6 +6,13 @@ public class Human {
     String town;
     String jobTitle;
 
+    Human(int yearOfBirth, String name, String town, String jobTitle) {
+        this.yearOfBirth = yearOfBirth;
+        this.name = name;
+        this.town = town;
+        this.jobTitle = jobTitle;
+
+    }
 
     @Override
     public String toString() {
