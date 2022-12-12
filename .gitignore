@@ -1,2 +1,4 @@
 # Project exclude paths
 /out/
+/.idea/
+/Course2Lesson1.iml
