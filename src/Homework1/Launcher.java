@@ -30,6 +30,5 @@ public class Launcher {
         System.out.println(anna);
         System.out.println(kat);
         System.out.println(arty);
-        System.out.println();
     }
 }
