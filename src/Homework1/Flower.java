@@ -7,6 +7,7 @@ public class Flower {
     final private String country;
     final private int lifeSpan;
     private double cost;
+    private int manyFlowers;
 
 
     public Flower(String flowerName, String country, int lifeSpan, double cost) {
@@ -55,6 +56,14 @@ public class Flower {
 
     public void setCost(double cost) {
         this.cost = cost;
+    }
+
+    public int getManyFlowers() {
+        return manyFlowers;
+    }
+
+    public void setManyFlowers(int manyFlowers) {
+        this.manyFlowers = manyFlowers;
     }
 
     @Override
