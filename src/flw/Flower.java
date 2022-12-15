@@ -1,4 +1,4 @@
-package Homework1;
+package flw;
 
 import java.text.DecimalFormat;
 
